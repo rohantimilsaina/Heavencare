@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HavenCare Hospital Management System - an accessible static prototype for services, care teams, patient information and appointment requests.">
+  <title>HavenCare Hospital Management System</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <aside class="announcement" data-announcement aria-label="Emergency information">
+    <div class="container announcement__inner">
+      <p><strong>Life-threatening emergency?</strong> Call <a href="tel:000">000</a>. This student prototype does not provide medical advice.</p>
+      <button class="announcement__close" type="button" data-announcement-close aria-label="Dismiss emergency information">×</button>
+    </div>
+  </aside>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="HavenCare home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand__text">HavenCare <span>Hospital system</span></span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav class="site-nav" data-site-nav id="primary-navigation" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="doctors.html">Care team</a></li>
+          <li><a href="resources.html">Patient guide</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a class="nav-cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="home-title">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">Care, clearly connected</p>
+          <h1 class="hero-title" id="home-title">Health care without the guesswork.</h1>
+          <p class="hero__copy">HavenCare Hospital is a community health service that brings specialist care, clear patient guidance, and simple appointment planning into one welcoming digital experience for patients, families, visitors, and clinical teams.</p>
+          <div class="actions">
+            <a class="button button--light" href="contact.html">Request an appointment <span aria-hidden="true">→</span></a>
+            <a class="button button--outline" href="services.html">Explore services</a>
+          </div>
+          <div class="hero__note">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span>General enquiries: Monday-Friday, 8:00 am-6:00 pm. Emergency care is available 24 hours.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white" aria-labelledby="quick-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Start here</p>
+            <h2 class="section-title" id="quick-title">The right next step, faster.</h2>
+          </div>
+          <p class="lede">Find the information people most often need before a visit, without searching through clinical jargon or complex menus.</p>
+        </div>
+        <div class="quick-grid">
+          <a class="quick-card" href="services.html">
+            <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20V7l8-4 8 4v13M8 20v-5h8v5M9 9h6M12 6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div><h2>Find a service</h2><p>Browse departments and common reasons for referral.</p></div>
+            <span class="text-link">View departments</span>
+          </a>
+          <a class="quick-card" href="doctors.html">
+            <span class="icon-tile icon-tile--navy" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM17 11l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div><h2>Meet the team</h2><p>Filter clinicians by specialty and role.</p></div>
+            <span class="text-link">Browse profiles</span>
+          </a>
+          <a class="quick-card" href="resources.html">
+            <span class="icon-tile icon-tile--coral" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 3h11l3 3v15H5V3ZM15 3v5h4M8 12h8M8 16h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div><h2>Plan your visit</h2><p>Check visiting hours, admission steps and accessibility.</p></div>
+            <span class="text-link">Open patient guide</span>
+          </a>
+          <a class="quick-card" href="contact.html">
+            <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 3v4M17 3v4M4 9h16M5 5h14a1 1 0 0 1 1 1v15H4V6a1 1 0 0 1 1-1ZM8 13h3v3H8v-3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div><h2>Request a time</h2><p>Try the validated appointment request demonstration.</p></div>
+            <span class="text-link">Open form</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="services-preview-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Coordinated services</p>
+            <h2 class="section-title" id="services-preview-title">Specialists who work as one team.</h2>
+          </div>
+          <p class="lede">HavenCare's departments are organised around patient journeys, helping referrals, diagnostics and follow-up information feel connected.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card service-card">
+            <span class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M3 12h4l2-5 4 10 2-5h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <h3>Heart & vascular</h3>
+            <p>Consultation, diagnostics and recovery planning presented in one clear pathway.</p>
+            <ul><li>Cardiac assessment</li><li>Diagnostic imaging</li><li>Rehabilitation guidance</li></ul>
+          </article>
+          <article class="card service-card">
+            <span class="icon-tile icon-tile--navy" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M7 7c-2 1-3 3-3 5s1 4 3 5M17 7c2 1 3 3 3 5s-1 4-3 5M8 5c2-2 6-2 8 0v14c-2 2-6 2-8 0V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+            <h3>Neurology</h3>
+            <p>Accessible information about specialist review, tests and continuing support.</p>
+            <ul><li>Specialist consultation</li><li>Neurodiagnostic testing</li><li>Allied health referrals</li></ul>
+          </article>
+          <article class="card service-card">
+            <span class="icon-tile icon-tile--coral" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s8-4.5 8-11A4.5 4.5 0 0 0 12 7a4.5 4.5 0 0 0-8 3c0 6.5 8 11 8 11Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+            <h3>Family care</h3>
+            <p>Welcoming outpatient support for adults and families across everyday health needs.</p>
+            <ul><li>General medicine</li><li>Preventive care</li><li>Care coordination</li></ul>
+          </article>
+        </div>
+        <div class="actions"><a class="button" href="services.html">See all services</a></div>
+      </div>
+    </section>
+
+    <section class="section section--navy" aria-labelledby="pathway-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">A simpler care pathway</p>
+            <h2 class="section-title" id="pathway-title">From question to next step.</h2>
+          </div>
+          <p class="lede lede--inverse">A clear sequence keeps people oriented before, during and after a hospital visit.</p>
+        </div>
+        <div class="pathway">
+          <article class="pathway__step"><h3>Explore</h3><p>Read plain-language service and referral information.</p></article>
+          <article class="pathway__step"><h3>Prepare</h3><p>Check what to bring, where to go and what support is available.</p></article>
+          <article class="pathway__step"><h3>Connect</h3><p>Send a demonstration request and receive immediate on-screen feedback.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white" aria-labelledby="people-title">
+      <div class="container feature-split">
+        <img class="feature-split__image" src="assets/images/gallery-care-team.webp" width="1536" height="1024" loading="lazy" alt="Four healthcare professionals reviewing a tablet together in a bright meeting room">
+        <div class="feature-split__content">
+          <p class="eyebrow">Designed around people</p>
+          <h2 class="section-title" id="people-title">Confident care starts with clear communication.</h2>
+          <p class="lede">Every page uses concise headings, descriptive links, visible focus states and practical explanations. The result is easier to navigate with a keyboard, screen reader, touch device or simply limited time.</p>
+          <div class="stats-grid" aria-label="Prototype highlights">
+            <div class="stat"><strong>6</strong><span>purpose-built pages</span></div>
+            <div class="stat"><strong>1</strong><span>consistent navigation system</span></div>
+            <div class="stat"><strong>0</strong><span>real patient records collected</span></div>
+            <div class="stat"><strong>100%</strong><span>client-side demonstration</span></div>
+          </div>
+          <div class="actions"><a class="button" href="resources.html">Read the patient guide</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container callout">
+        <p class="eyebrow">Need help choosing?</p>
+        <h2>Tell us what kind of care information you need.</h2>
+        <p>Use the demonstration form for a general enquiry or appointment request. It validates your entries in the browser and does not transmit or store personal information.</p>
+        <div class="actions"><a class="button button--light" href="contact.html">Contact HavenCare</a><a class="button button--outline" href="gallery.html">Explore the hospital</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="index.html">
+          <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
+          <span class="brand__text">HavenCare <span>Hospital system</span></span>
+        </a>
+        <p>A hospital website created a web development project. It does not represent a real health provider.</p>
+        <span class="prototype-badge">Student prototype · No real data collected</span>
+      </div>
+      <nav class="footer__links" aria-label="Hospital information"><h2>Hospital</h2><ul><li><a href="services.html">Services</a></li><li><a href="doctors.html">Care team</a></li><li><a href="gallery.html">Gallery</a></li></ul></nav>
+      <nav class="footer__links" aria-label="Help and contact"><h2>Help</h2><ul><li><a href="resources.html">Patient guide</a></li><li><a href="contact.html">Contact</a></li><li><a href="tel:000">Emergency: 000</a></li></ul></nav>
+    </div>
+    <div class="container footer__bottom"><p>© <span data-year>2026</span> HavenCare student project. AI-assisted imagery is original and disclosed in the project report.</p></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meet the interdisciplinary care team in the HavenCare Hospital Management System prototype.">
+  <title>Care Team | HavenCare</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <aside class="announcement" data-announcement aria-label="Emergency information"><div class="container announcement__inner"><p><strong>Life-threatening emergency?</strong> Call <a href="tel:000">000</a>. This student prototype does not provide medical advice.</p><button class="announcement__close" type="button" data-announcement-close aria-label="Dismiss emergency information">×</button></div></aside>
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="HavenCare home"><span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span><span class="brand__text">HavenCare <span>Hospital system</span></span></a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      <nav class="site-nav" data-site-nav id="primary-navigation" aria-label="Primary navigation"><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="doctors.html" aria-current="page">Care team</a></li><li><a href="resources.html">Patient guide</a></li><li><a href="gallery.html">Gallery</a></li><li><a class="nav-cta" href="contact.html">Contact</a></li></ul></nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <header class="page-hero">
+      <div class="container"><p class="eyebrow">Our care team</p><h1 class="page-title">Expertise feels better when it feels human.</h1><p class="lede">Meet a diverse team built to demonstrate a clear, filterable staff directory. Every name, role and credential on this page is sample content rather than a real clinician profile.</p></div>
+    </header>
+
+    <section class="section section--white" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section-head"><div><p class="eyebrow">People directory</p><h2 class="section-title" id="team-title">Find a specialty.</h2></div><p class="lede">Use the buttons to filter the sample directory. The control is keyboard accessible and announces how many profiles remain visible.</p></div>
+        <div class="filter-bar" aria-label="Filter care team by specialty">
+          <button class="filter-button" type="button" data-team-filter="all" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-team-filter="cardiology" aria-pressed="false">Cardiology</button>
+          <button class="filter-button" type="button" data-team-filter="neurology" aria-pressed="false">Neurology</button>
+          <button class="filter-button" type="button" data-team-filter="medicine" aria-pressed="false">General medicine</button>
+          <button class="filter-button" type="button" data-team-filter="allied" aria-pressed="false">Allied health</button>
+        </div>
+        <p class="sr-only" data-filter-status aria-live="polite">6 team members shown.</p>
+        <div class="team-grid">
+          <article class="team-card" data-specialty="cardiology">
+            <div class="team-card__top"><div class="avatar" aria-hidden="true">AM</div><div><h3>Dr Aisha Malik</h3><p class="team-card__role">Consultant cardiologist</p></div></div>
+            <p>Sample profile focused on diagnostic review, collaborative planning and clear communication with patients and families.</p><span class="tag">Cardiology</span>
+          </article>
+          <article class="team-card" data-specialty="neurology">
+            <div class="team-card__top"><div class="avatar" aria-hidden="true">JL</div><div><h3>Dr Julian Lee</h3><p class="team-card__role">Consultant neurologist</p></div></div>
+            <p>Sample profile demonstrating specialist consultation, coordinated testing information and accessible follow-up guidance.</p><span class="tag">Neurology</span>
+          </article>
+          <article class="team-card" data-specialty="medicine">
+            <div class="team-card__top"><div class="avatar" aria-hidden="true">SO</div><div><h3>Dr Sofia Okafor</h3><p class="team-card__role">General physician</p></div></div>
+            <p>Sample profile representing broad adult medicine, referral coordination and practical next-step planning.</p><span class="tag">General medicine</span>
+          </article>
+          <article class="team-card" data-specialty="allied">
+            <div class="team-card__top"><div class="avatar" aria-hidden="true">TH</div><div><h3>Tahlia Hayes</h3><p class="team-card__role">Senior physiotherapist</p></div></div>
+            <p>Sample profile highlighting mobility assessment, recovery education and partnership with multidisciplinary teams.</p><span class="tag">Allied health</span>
+          </article>
+          <article class="team-card" data-specialty="allied">
+            <div class="team-card__top"><div class="avatar" aria-hidden="true">RN</div><div><h3>Ravi Nair</h3><p class="team-card__role">Care navigator</p></div></div>
+            <p>Sample profile showing how one contact can explain referrals, preparation, access support and follow-up steps.</p><span class="tag">Allied health</span>
+          </article>
+          <article class="team-card" data-specialty="cardiology">
+            <div class="team-card__top"><div class="avatar" aria-hidden="true">CW</div><div><h3>Claire Wong</h3><p class="team-card__role">Clinical nurse consultant</p></div></div>
+            <p>Sample profile representing education, recovery planning and communication between patients and clinical teams.</p><span class="tag">Cardiology</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="teamwork-title">
+      <div class="container feature-split">
+        <img class="feature-split__image" src="assets/images/gallery-care-team.webp" width="1536" height="1024" loading="lazy" alt="A diverse hospital team gathered around a tablet in a sunlit collaboration room">
+        <div class="feature-split__content"><p class="eyebrow">Working together</p><h2 class="section-title" id="teamwork-title">A directory is useful. A connected team is better.</h2><p class="lede">The prototype groups roles by what people need, not by internal hospital structure. This keeps specialist, nursing and allied-health support visible within the same journey.</p><ul class="check-list"><li>Plain-language roles and responsibilities</li><li>Consistent profile layout for faster scanning</li><li>Inclusive names and imagery</li><li>No real qualifications or endorsements implied</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section section--navy" aria-labelledby="values-title">
+      <div class="container">
+        <div class="section-head"><div><p class="eyebrow">Team values</p><h2 class="section-title" id="values-title">How HavenCare communicates care.</h2></div><p class="lede lede--inverse">These content principles shape the interface as much as the visual design.</p></div>
+        <div class="pathway"><article class="pathway__step"><h3>Listen first</h3><p>Respect different goals, access needs, languages and levels of health literacy.</p></article><article class="pathway__step"><h3>Explain clearly</h3><p>Use concise language, descriptive links and predictable page structures.</p></article><article class="pathway__step"><h3>Protect trust</h3><p>State prototype limitations and avoid collecting or implying real patient records.</p></article></div>
+      </div>
+    </section>
+
+    <section class="section"><div class="container callout"><p class="eyebrow">Next step</p><h2>Connect a service with a practical visit plan.</h2><p>Review referral, arrival and accessibility guidance, then test the appointment request form.</p><div class="actions"><a class="button button--light" href="resources.html">Read patient guide</a><a class="button button--outline" href="contact.html">Open contact form</a></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer__grid"><div class="footer__brand"><a class="brand" href="index.html"><span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span><span class="brand__text">HavenCare <span>Hospital system</span></span></a><p>A hospital website created as a web development project. It does not represent a real health provider.</p><span class="prototype-badge">Student prototype · No real data collected</span></div><nav class="footer__links" aria-label="Hospital information"><h2>Hospital</h2><ul><li><a href="services.html">Services</a></li><li><a href="doctors.html">Care team</a></li><li><a href="gallery.html">Gallery</a></li></ul></nav><nav class="footer__links" aria-label="Help and contact"><h2>Help</h2><ul><li><a href="resources.html">Patient guide</a></li><li><a href="contact.html">Contact</a></li><li><a href="tel:000">Emergency: 000</a></li></ul></nav></div><div class="container footer__bottom"><p>© <span data-year>2026</span> HavenCare student project. AI-assisted imagery is original and disclosed in the project report.</p></div></footer>
+</body>
+</html>
