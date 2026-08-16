@@ -5,7 +5,6 @@ ICT726 Assignment 3 submission package. HavenCare is a fictional, framework-free
 ## Package contents
 
 - `website/` — six HTML pages and all local CSS, JavaScript and WebP media
-- `report/HavenCare_Development_Report.docx` — editable development report
 - `report/HavenCare_Development_Report.pdf` — print-ready report
 - `report/evidence/` — wireframes and final desktop/mobile visual previews
 - `MEDIA_ATTRIBUTION.md` — media inventory and AI-use disclosure
